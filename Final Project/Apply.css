@@ -1,0 +1,741 @@
+*:focus{
+  outline: none;
+}
+
+body {
+  margin:0;
+  background-color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: sans-serif,Arial, Helvetica; 
+  position: relative;
+ 
+}
+      
+.navbar {
+  overflow: hidden;
+  background-color: rgb(192, 32,32);
+  height: 100px;
+
+  z-index: 1;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}       
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 30px 15px 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.navbar a:link,
+.navbar a:visited{
+  font-size: 55%;
+  font-weight:bold;
+  border-bottom: 1.5px solid transparent; 
+  transition: border-bottom 0.2s;
+}
+.navbar a:hover,
+.navbar a:active{
+border-bottom: 2px solid #fafafa; 
+}
+
+.main-nav{
+  margin-left: 620px;
+  margin-top: -50px;
+  
+}
+
+
+/*start*/
+
+.navbar-2 a {
+  float: left;
+ 
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 54%;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 16px 40px;
+  background-color: inherit;
+  font-family: inherit;
+  margin-left: -40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(192, 39, 39);
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*end*/
+
+
+.texts{
+  text-transform: uppercase;
+  font-size: 90%;
+  font-weight: 300;
+  color: rgb(250, 250, 250);
+  line-height: 30px;
+  padding-left: 255px;
+  padding-top: 20px;
+}    
+.logo{
+  width: 100px;
+  height: 80px;
+  margin-top: 10px;
+  float: left;
+  margin-left: 140px;
+  border-radius: 8px;
+}
+
+.main {
+  margin-top: 0px;
+
+}
+
+.check, .log-out{
+  position: absolute;
+  top: 26px; 
+  border: none;
+  padding: 15px 20px; 
+  font-weight: 600;
+  font-size: 60%;
+  color: rgb(192, 32,32);
+  background-color: #fff;
+  text-align: center;
+  border: 2px solid rgb(192, 32,32);
+}
+.check{
+  left: 1230px;   
+  padding-left: 12px; 
+}
+
+.log-out{
+  left: 1350px; 
+}
+
+.log-out:hover, .check:hover{
+      background-color: rgb(192, 32,32);
+      color: #fff;
+      border: solid 1px #fff;
+
+}
+
+
+
+
+/*ABOUT SECTION*/
+
+
+
+#n{
+  width:210px;
+  border-bottom: 4px solid #000;
+  margin-top: 10px;
+  margin-bottom: -10.61px;
+}
+
+#news-header{
+  width:280px;
+  margin-left: 40px;
+  padding: 54px 0px 0px 0px;
+  font-size: 140%;
+  font-weight: 550;
+  font-family: sans-serif,Arial, Helvetica;
+  
+}
+.sub-3rd{
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 107px;
+  border-bottom: 1px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-control{
+  width: 450px;
+  height: 50px;
+  margin-bottom: 30px;
+  font-size: 80%;
+  text-align: center;
+  border: 1px solid rgb(124, 124, 124);
+  border-radius: 50px;
+  
+}
+
+.sign{
+  background-color: rgb(192, 39, 39);
+  border: none;
+  width: 160px;
+  height: 50px;
+  font-size: 75%;
+  color: #fff;
+  border-radius: 50px;
+  margin-left: 150px;
+  margin-top: 25px;
+}
+
+.sign:hover{
+  border:2px solid rgb(192, 39, 39);
+  background-color: #fff;
+  color: rgb(192, 39, 39);
+}
+
+
+.section1{
+  width: 80%;
+  height: 2000px;
+  background-color: rgb(255, 255, 255);
+  background-attachment: fixed;
+  margin-top: -180px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+
+}
+.section1 h4{
+  text-transform: initial;
+  font-weight: bolder;
+  font-size: 90%;
+  color: rgb(68, 67, 67);
+  text-align: left;
+  margin-left: 320px;
+  margin-top: 70px;
+}
+.section-1-1{
+ /* background-color: rgb(196, 183, 183);*/
+  width: 600px;
+height: 2000px;
+  margin-left: 380px;
+  
+  padding-top: 10px;
+}
+
+.gogface{
+  margin-left: 380px;
+  margin-top: 50px;
+
+}
+
+.google, .face{
+  width: 450px;
+  height: 50px;
+  border: none;
+  margin-bottom: 30px;
+  font-size: 80%;
+  text-align: center;
+  border-radius: 50px;
+  color: #fff;
+ 
+}
+
+#google{
+  background-color: #be281e;
+}
+.face{
+  background-color: #3b5998;
+padding-left: 100px;
+padding-top: -150px;
+}
+#google:hover{
+  background-color: rgb(141, 33, 33);
+}
+.face:hover{
+  background-color: #143272;
+}
+
+.fc,.go{
+ 
+  width: 20px;
+  height: 30px;
+  text-transform: lowercase;
+  margin-top: 40px;
+  margin-left: -15px;
+  font-size: 130%;
+  font-weight: bold;
+}
+.go{
+  
+  font-size: 110%;
+  margin-left: -5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+.g{
+  margin-top: 4px;
+}
+.fcd{
+ 
+  width: 300px;
+  height: 30px;
+  text-transform: uppercase;
+  margin-top: -25px;
+  margin-left: -5px;
+  font-size: 95%;
+}
+.god{
+ 
+  width: 300px;
+  height: 30px;
+  text-transform: uppercase;
+  margin-top: -25px;
+  margin-left: -5px;
+  font-size: 95%;
+}
+.ffc{
+  margin-top: -35px;
+}
+.abc{
+  width: 450px;
+  height: 30px;
+  margin-left: 380px;
+  margin-top: 10px;
+}
+
+#a{
+  width: 160px;
+  height: 10px;
+  
+  float: left;
+  margin-top: 1px;
+  border-bottom: 2px solid rgb(187, 184, 187);
+}
+#b{
+  width: 33px;
+  height: 40px;
+ 
+  float: left;
+  font-size: 80%;
+  color: rgb(187, 184, 187);
+  margin-left: 50px;
+}
+#c{
+  width: 160px;
+  height: 10px;
+  
+  float: right;
+  margin-top: 1px;
+  border-bottom: 2px solid rgb(187, 184, 187);
+}
+
+
+.section-2{
+height: 250px;
+background-color: rgb(192, 39, 39);
+padding-top: 40px;
+margin-top: 60px;
+font-size: 40px;
+color: #fff;
+font-weight: 600px;
+text-align: center;
+width:100%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-left: auto;
+margin-right: auto;
+}
+
+.dont{
+  margin-top: 50px;
+  margin-left: 60px;
+  font-size: 80%;
+  color: rgb(134, 129, 129);
+  text-transform: initial;
+}
+
+.dont a{
+  text-decoration: none;
+  color: rgb(192, 39, 39);
+}
+.dont a:hover{
+  text-decoration: underline;
+  
+}
+
+
+/*...........footer..........*/
+.sub-9th{
+  background-color: rgb(192, 39, 39);
+  width: 100%;
+  height: 150px;
+  margin-top: 100px;
+  float: left;
+  }
+  
+  .footer{
+  padding-top: 30px;
+  padding-left: 200px;
+  float: left;
+  }
+  
+  .footer a{
+  color:#fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 50px;
+  font-size: 55%;
+  }
+  .footer a:hover{
+  color:#393939;
+  text-decoration: underline;
+  
+  }
+  
+  
+  .footer-2{
+  padding-top: 35px;
+  margin-left: 150px;
+  float: left;
+  font-size: 100%;
+  }
+  .footer-2 a{
+  color: #fff;
+  padding-left: 30px;
+  }
+  
+  .footer-2 a:hover{
+  color:#393939;
+  text-decoration: underline;
+  
+  }
+  
+  
+  .footer-3{
+  float: left;
+  margin-top: 140px;
+  margin-left: -600px;
+  
+  }
+  
+  select{
+  width: 160px;
+  height: 50px;
+  padding: 10px;
+  padding-left: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: rgb(192, 39, 39);
+  margin-left: auto;
+  
+  margin-right: auto;
+  }
+  .footer-3 option{
+  background-color: #fff;
+  color: rgb(2, 2, 2);
+  
+  }
+  
+  
+  .footer-last{
+  float: left;
+  margin-top: 100px;
+  margin-left: -750px;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-size: 65%;
+  }
+  
+  
+  .for-group{
+    width: 450px;
+    margin-bottom: -10px;
+    margin-left: 80px;
+  }
+
+  .wrong-input{
+    width: 450px;
+    height: 50px;
+    font-size: 80%;
+    text-align: left;
+    border: 1px solid rgb(192, 39, 39);
+    animation: shake 0.5s;
+    animation-iteration-count: 2;
+    border-radius: 50px;
+  }
+
+  .simpleForm input{
+    width: 100%;
+    margin: 4px 0px;
+    padding: 2px 4px;
+  }
+
+
+  .for-group p{
+    color: rgb(192, 39, 39);
+    font-size: 70%;
+    text-align: center;
+    text-transform: initial;
+  }
+
+
+.title{
+  float: left;
+  margin-left: -430px;
+  height: 50px;
+  width: 400px;
+/*  background-color: antiquewhite; */
+}
+
+.val{
+  float: right;
+  font-size: 85%;
+  padding-top: 18px;
+}
+
+
+
+
+
+.section-1-1 h4{
+  text-transform: initial;
+  font-weight: bolder;
+  font-size: 90%;
+  color: rgb(68, 67, 67);
+  text-align: left;
+  margin-left: -65px;
+  margin-top: 90px;
+}
+
+
+
+
+#auto_renew_female,#auto_renew_male{
+  width: 10px;
+  height: 10px;
+  margin-left: 20px;
+  margin-top: 30px;
+  
+  margin-bottom: 20px;
+  vertical-align: -10%;
+}
+#auto_renew_male{
+
+  margin-left: 20px;
+  margin-top: 50px;
+ 
+  vertical-align: 0%;
+}
+
+.lk{
+  margin-top: -98px;
+
+}
+
+
+#high, #voc, #bach, #masters, #phd{
+  margin-left: -57px;
+  margin-bottom: 20px;
+  width: 10px;
+
+}
+
+
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2.5); /* IE */
+  -moz-transform: scale(2.5); /* FF */
+  -webkit-transform: scale(2.5); /* Safari and Chrome */
+  -o-transform: scale(2.5); /* Opera */
+  padding: 10px;
+
+}
+
+/* Might want to wrap a span around your checkbox text */
+
+
+form p{
+  color: rgb(192, 39, 39);
+  font-size: 70%;
+  margin-left: -60px;
+  text-transform: initial;
+}
+.form-back{
+  height: 50px;
+  margin-bottom: 30px;
+  font-size: 80%;
+  text-align: left;
+  border: 1px solid rgb(124, 124, 124);
+  border-radius: 50px;
+
+}
+#high-bc, #degree-bc{
+  width: 420px;
+  margin-left: -65px;
+  margin-top: 20px;
+  float: left;
+  text-align: left;
+ padding-left: 20px;
+}
+#errorHigh, #errorHighGpa, #errorHighAw, #errordegree, #errorDegreeGpa, #errorDegreeAw{
+  width: 440px;
+  height: 20px;
+ /* background-color: aqua; */
+  
+  float: left;
+}
+#errorHighGpa,#errorDegreeGpa{
+  margin-top: -38px;
+  margin-left: 400px;
+}
+#errorHighAw{
+  width: 660px;
+  margin-top: 15px;
+  margin-left: -60px;
+}
+
+#errorDegreeAw{
+  width: 660px;
+  margin-top: 15px;
+  margin-left: -60px;
+}
+
+#high-gpa{
+  width: 173px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+#degree-bc{
+  margin-top: 0px;
+}
+
+#degree-gpa{
+  width: 173px;
+  margin-left: -199px;
+  margin-top: 250px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+#high-award, #degree-award{
+  width: 625px;
+  height: 130px;
+  margin-left: -65px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  float: left;
+  border-radius: 15px;
+  text-align: left;
+  padding: 20px;
+  
+}
+
+
+
+.edbc{
+  margin-top: -20px;
+}
+
+
+/*...............Education Goal......................*/
+.ebg{
+  margin-top: 330px;
+}
+
+
+.edg-par{
+  color: #000;
+  font-weight: bold;
+  font-size: 80%;
+}
+
+.edg-par .course{
+  font-size: 10%;
+  color: #000;
+}
+
+input[type=radio]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+
+}
+
+
+
+#errorCourse{
+  width: 640px;
+  height: 20px;
+/*  background-color: aqua;  */
+  float: left;
+}
+
+
+#highO, #vocO, #bachO, #mastersO, #phdO{
+  margin-left: -57px;
+  margin-bottom: 20px;
+  width: 10px;
+
+}
+
+
+
+/*...............Student Application......................*/
+
+#highD, #highD2, #vocD, #vocD2, #bachD, #mastersD, #phdD{
+  margin-left: -57px;
+  margin-bottom: 20px;
+  width: 10px;
+font-size: 10%;
+}
+
+#errorDocument{
+  width: 640px;
+  height: 20px;
+ /* background-color: aqua;bz
+  float: left;*/
+}

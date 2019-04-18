@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Apply.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Apply Here</title>
+ 
+</head>
+<body>
+      <div class="navbar">
+        <img src="Logo/logo.jpg" class="img-rounded logo">
+        <div class="texts">
+                Ethiopian<br>
+                Cultural institute
+        </div>
+        <div class="main-nav">
+                        
+                    <div class="navbar-2">
+
+                            <div class="dropdown">
+                            <button class="dropbtn">About 
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="AboutECI.html">ECI</a>
+                                <a href="AboutEthiopia.html">Ethiopia</a>
+                               
+                            </div>
+                            </div> 
+                        </div>
+
+                    <a href="News.html">News</a>
+                        
+                    <div class="navbar-2">
+
+                            <div class="dropdown">
+                            <button class="dropbtn">Admission 
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="Programs.html">programs</a>
+                                <a href="AdmissionRequirements.html">admission requirements</a>
+                                <a href="ApplicationProcess.html">application process</a>
+                            </div>
+                            </div> 
+                        </div>
+                    <a href="Universities.html">Universities & Schools</a>
+                    <a href="Home.html">home</a>
+               
+                </div>
+        
+                <button class="check" onclick="location.href='http://127.0.0.1:5500/LastDestination.html';">Check Status</button>
+                <button class="log-out" onclick="location.href='http://127.0.0.1:5500/SignIn.html';">Log Out</button>
+      
+        
+           
+      </div>
+
+      
+    <div class="section-2">
+            Students Portal
+    </div>
+ 
+
+
+    <div class="section1">
+            <div class="sub-3rd"><!--ALL THE NEWS PART-->
+                <div id="news-header">
+                        Student Profile<div id="n"></div>
+                </div>
+            </div>
+            <h4>STUDENT INFORMATION*</h4>
+           
+              
+  
+        <form action="" method="GET" class="simpleForm" onsubmit="return ValidateForm()">
+                <div class="section-1-1">
+  
+                        <div class="for-group">
+                           <br><div class="title"><div class="val">First Name:  </div></div>    <input type="text" name="fname" class="form-control" id="fnames" onkeydown="lettersOnly(this)" onkeyup="removeMes(this)">
+                           <p class="error" id="errorFname"></p>
+   
+                            <div class="title"><div class="val">Last Name:  </div></div>   <input type="text" name="lname" class="form-control" id="lnames" onkeyup="removeMes(this)">
+                            <p class="error" id="errorLname"></p>
+
+
+                            <div class="title"><div class="val">Sex:  </div></div>   
+                                       
+                                <small>Female</small> <input type="radio" name="auto_renew" value="yes" class="form-control" id="auto_renew_female" onclick="removeMes(this)">
+                    
+                           
+                                <p class="lk"></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                 <small>Male</small> <input type="radio" name="auto_renew" value="no" class="form-control" id="auto_renew_male" onclick="removeMes(this)">
+                               
+                             <p class="error" id="errorSex"></p>
+                           
+ <!----> 
+
+
+                            <div class="title"><div class="val">Address:  </div></div>  <input type="text" name="address" class="form-control" id="address" onkeyup="removeMes(this)">
+                            <p class="error" id="errorAddress"></p>
+
+
+
+                            <div class="title"><div class="val">Email-Address:  </div></div>   <input type="text" name="email" class="form-control" id="emails" onkeyup="removeMes(this)">
+                            <p class="error" id="errorEmail"></p>
+    
+                            <div class="title"><div class="val">Birth-Date:  </div></div>  <input type="date" name="phone" class="form-control" id="birthD" onclick="removeMes(this)">
+                            <p class="error" id="errorBdate"></p>
+
+                            <div class="title"><div class="val">Phone-Number:  </div></div>  <input type="text" name="phone" class="form-control" id="phone" onkeyup="removeMes(this)">
+                            <p class="error" id="errorPhone"></p>
+                        </div>
+     <!--                   
+                <h4>CURRENT EDUCATIONAL STATUS *</h4><br>
+                <input type="checkbox" name="status1" class="radio" id="high" onkeyup="removeMes(this)">&nbsp; <small>High School Degree</small> <br>
+                <input type="checkbox" name="status2" class="radio" id="voc" onkeyup="removeMes(this)">&nbsp; <small>Vocational Cetificate</small> <br>
+                <input type="checkbox" name="status3" class="radio" id="bach" onkeyup="removeMes(this)">&nbsp; <small>Bachelor Degree</small> <br>
+                <input type="checkbox" name="status4" class="radio" id="masters" onkeyup="removeMes(this)">&nbsp; <small>Masters Degree</small><br>
+                <input type="checkbox" name="status5" class="radio" id="phd" onkeyup="removeMes(this)">&nbsp; <small>PHD</small><br>
+                <p class="error" id="errorStatus"></p>
+                
+     -->           
+                <p class="edbc"><h4>EDUCATION BACKGROUND *</h4></p>
+
+                <input type="text" class="form-back" id="high-bc" placeholder="Name of HighSchool Attended" onkeyup="removeMes(this)">
+                <p class="error" id="errorHigh"></p>
+    
+
+                <input type="text" class="form-back" id="high-gpa" placeholder="GPA" onkeyup="removeMes(this)">
+                <p class="error" id="errorHighGpa"></p>
+
+                <textarea type="text" class="form-back" id="high-award" placeholder="List any awards/honors" onkeyup="removeMes(this)"></textarea>
+                <p class="error" id="errorHighAw"></p>
+
+
+
+                <input type="text" class="form-back" id="degree-bc" placeholder="Name of college or university attended" onkeyup="removeMes(this)">
+                <p class="error" id="errordegree"></p>
+
+                <input type="text"  class="form-back" id="degree-gpa" placeholder="GPA" onkeyup="removeMes(this)">
+                <p class="error" id="errorDegreeGpa"></p>
+
+                <textarea type="text"  class="form-back" id="degree-award" placeholder="List any awards/honors" onkeyup="removeMes(this)"></textarea>
+                <p class="error" id="errorDegreeAw"></p>
+                
+            
+            <!--
+                <p class="ebg"><h4>EDUCATION GOALS*</h4></p>
+             <p class="edg-par">What grade/degree does the student wants to study</p>
+             <input type="radio" name="option" class="course" id="highO" onkeyup="removeMes(this)">&nbsp; <small>BA Degree Certificate</small> <br>
+             <input type="radio" name="option" class="course" id="vocO" onkeyup="removeMes(this)">&nbsp; <small>Masters Cetificate</small> <br>
+             <input type="radio" name="option" class="course" id="bachO" onkeyup="removeMes(this)">&nbsp; <small>Bachelor Degree</small> <br>
+             <input type="radio" name="option" class="course" id="mastersO" onkeyup="removeMes(this)">&nbsp; <small>Masters Degree</small><br>
+             <input type="radio" name="option" class="course" id="phdO" onkeyup="removeMes(this)">&nbsp; <small>PHD</small><br>
+             <p class="error" id="errorCourse"></p>
+
+
+
+                <h4>STUDENTS APPLICATION*</h4>
+                <p class="edg-par">Available student documents</p>
+
+                <input type="checkbox" name="doc1" class="document" id="highD" onkeyup="removeMes(this)">&nbsp; <small>High School Diploma</small> <br>
+                <input type="checkbox" name="doc1" class="document" id="highD2" onkeyup="removeMes(this)">&nbsp; <small>High School Certificate</small> <br>
+                <input type="checkbox" name="doc2" class="document" id="vocD" onkeyup="removeMes(this)">&nbsp; <small>College or University Certificate</small> <br>
+                <input type="checkbox" name="doc2" class="document" id="vocD2" onkeyup="removeMes(this)">&nbsp; <small>Cetificate</small> <br>
+                <input type="checkbox" name="doc3" class="document" id="bachD" onkeyup="removeMes(this)">&nbsp; <small>College or University Transcript</small> <br>
+                <input type="checkbox" name="doc4" class="document" id="mastersD" onkeyup="removeMes(this)">&nbsp; <small>Other Diploma</small><br>
+                <input type="checkbox" name="doc5" class="document" id="phdD" onkeyup="removeMes(this)">&nbsp; <small>Award or Certificate</small><br>
+                <p class="error" id="errorDocument"></p>
+                
+
+-->
+                
+                        <button type="submit" class="sign">Done</button>
+                      
+                </div>
+        </form>
+
+
+       
+
+        <!--hjjjjjjjjjjjjjjjjjg-->    
+    </div>
+
+
+
+
+    <div class="sub-9th">
+        <div class="footer">
+                <a href="AboutECI.html">contact us</a>
+                <a href="Programs.html">admissions</a>
+                <a href="AdmissionRequirements.html">policies</a>
+                <a href="News.html">community</a>
+                <a href="SignIn.html">sign in</a>
+        </div>
+        <div class="footer-2">
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+       
+        <div class="footer-last">
+            Copyright &copy; 2019 ethiopian cultural institute. all rights reserved.
+        </div>
+    
+    </div>
+
+    
+    <script src="Apply.js"></script>
+    <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
+    
+</body>
+</html>
+
+
+

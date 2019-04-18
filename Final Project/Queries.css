@@ -1,0 +1,741 @@
+
+
+/* Big Tablet to 2000px (width smaller than 1550px row)*/
+ @media only screen and (max-width:1550px){
+    #slider{
+        width: 91%; 
+    }
+    #slider .slides{
+       
+        width: 100%;
+    }
+    .im{
+        width: 100%;
+    }
+    .logo{
+        width: 7%;
+        height: 80px;
+        margin-top: 10px;
+        float: left;
+        margin-left: 9%;
+        border-radius: 8px;
+    }
+  
+    .texts{
+       
+         margin-left: -240px;
+         float: left;
+     } 
+
+ 
+     .main-nav{
+        width: 147%;
+        margin-left: 41%;
+        margin-top: -60px;
+        float: left;
+    }
+   
+    #sign-up{
+        width: 7%;
+        padding: 1%;
+        margin-left: 3%;
+        font-size: 60%;
+     }
+     #sign-in{
+        width: 7%;
+        padding: 1%;
+        margin-left: 9%;
+        font-size: 60%;
+     }
+  
+     .top-bottom{
+      
+        
+        margin-top:-370px;
+        margin-left:9%;
+       
+    }
+
+     
+.news-description{
+    width: 60%;
+    height: 180px;
+    /*background-color: rgb(212, 211, 211);*/
+    float: left;
+    margin-left: 40px;
+}
+
+.pic-des-5{
+    margin-top: 1000px;
+    margin-left: 100px;
+    /*margin-left: 150px;*/ 
+}
+ 
+
+.sub-3rd{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 1500px;
+    margin-top: 10px;
+    float: left;
+    /*newly added*/
+    margin-left: 0px;
+}
+.pic-des-6{
+    margin-top: 1280px;
+    margin-left: 100px;
+    /*margin-left: 150px;*/ 
+}
+
+.sub-4th{
+    background-color: #fff;
+    width: 100%;
+    height: 950px;
+    margin-top: 80px;
+    float: left;
+    overflow: hidden;
+    display: block;
+    padding-top: 50px;
+    padding-left: -140px;
+}
+#program-header{
+    margin-left: 9%;
+    
+}
+
+.program-holder{
+    width: 18%;
+
+    }
+
+#pro-hol-1{
+    margin-left: 9%;
+}
+
+
+
+.program-holder .bold{
+   
+    font-size: 140%;
+    
+    }
+    .italic, .des{
+    font-size: 80%;
+    }
+
+
+
+
+
+#partners{
+    margin-left: 10%;
+    padding-left: -10%;
+    font-size: 120%;
+}
+.pars a{
+    
+    font-size: 80%;
+
+}
+#pars1{
+    margin-left: -1%;
+}
+#pars2{
+    margin-left: -3%;
+}
+.ion-school{
+    font-size: 240%;
+}
+
+
+
+
+.sub-6th{
+        
+    width: 42%;
+    height: 450px;
+    margin-top: 130px;
+    margin-left: -50px;
+}
+#slider-2{
+    width: 100%;
+    height: 450px; 
+    overflow: hidden;
+}
+
+
+
+   
+.sub-7th{
+   
+    width: 93.5%;
+    height: 500px;
+    margin-left: 50px;
+}
+
+.e{
+    width: 22%;
+    height: 500px;
+    float: left;
+    font-size: 2500%;
+    padding-top: 0px;
+    margin-top: -110px;
+   margin-left: 3%;
+}
+
+#contact-header b{
+    font-size: 140%;
+    margin-bottom: 46px;
+ }
+
+ #co{
+    color: rgb(0, 0, 0);
+    padding: 0;
+    margin-top: -45px;
+    margin-left: 70px;
+    font-size: 80%;
+}
+
+.contacts{
+    width: 40%;
+    height: 450px;
+    margin-left: 4%;
+ }
+
+
+ .contacts ul li{
+       font-size: 70%;
+        line-height: 26px;
+        
+ }
+ .basic-info{
+    width: 20%;
+    height: 390px;
+    margin-top: 145px;
+    margin-left: 3%;
+    font-size: 70%;
+}
+
+
+.available-info{
+    width: 24.5%;
+    height: 350px;
+}
+
+.available-des{
+    font-size: 55%;
+    text-align: left;
+    padding-left: 15%;
+}
+
+#bahir{
+    font-size: 53%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+    
+.available-img{
+width: 90%;
+height:180px;
+}
+
+
+
+} 
+
+
+
+
+/* Big Tablet to 2000px (width smaller than 1140px row)*/
+@media only screen and (max-width:1200px){
+    #slider{
+        width: 91%; 
+    }
+    #slider .slides{
+       
+        width: 100%;
+    }
+    .im{
+        width: 100%;
+    }
+
+    
+    .top-left {
+    width: 100%;
+        }
+    .top-left b{
+       
+        font-size: 400%;
+    
+        }
+        .red-floater{
+            width: 9%;
+          
+    }
+    .logo{
+        width: 7%;
+        height: 80px;
+        margin-top: 10px;
+        float: left;
+        margin-left: 100px;
+        border-radius: 8px;
+    }
+    
+    .texts{
+       width: 18%;
+        font-size: 65%;
+        margin-left: -240px;
+        float: left;
+    } 
+    .main-nav{
+        width: 47%;
+        margin-left: 220px;
+        margin-top: -50px;
+        font-size: 88%;
+        float: left;
+    }
+
+    #sign-up{
+        width: 7%;
+        padding: 0.5%;
+        margin-left: 0.5%;
+        margin-top: 10px;
+        font-size: 60%;
+     }
+     #sign-in{
+        width: 7%;
+        padding: 0.5%;
+        margin-left: 7%;
+        margin-top: 10px;
+        font-size: 60%;
+     }
+  
+
+     .top-bottom{
+      
+        width: 520px;
+        padding: 50px 30px 5px 50px;
+        margin-top:-370px;
+        margin-left:9%;
+       
+    }
+    .pico{
+        background-color: rgb(124, 124, 187);
+        width: 400px;
+        height: 370px;
+        margin-left: 10%;
+        margin-top: -30px;
+        margin-bottom: 100%;
+        background-image: url(Images/culture3.jpg);
+    }
+
+
+    .lm{
+        width: 0px
+    }
+
+
+    .slide-3{
+        
+        margin-top: -100px; 
+        background: transparent;
+    }
+
+    #slider-3{
+        width: 0px;
+        margin-left: 0px;
+        
+    }
+  
+    .slides-3{
+        position: relative;
+        background-color: rgb(66, 134, 134);
+       width: 3000px;
+       margin-top: -150%;
+         /* height: 800px;
+      
+        padding: 0; */
+    }
+ 
+#slider .slides{
+    
+    width: 0px;
+    height: 700px;
+    margin-top: 100px;
+    
+}
+
+.im{
+    width: 1382px;
+    height: 700px;
+}           
+/* 
+
+#slider .slides{
+    display: block;
+    width: 12000px;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+}
+#slider .slide{
+    float: left;
+    list-style-type: none;
+}
+
+
+ */
+
+    /*know ur culture part*/
+
+    #bado1{
+        width: 100px;
+        height: 55px;
+        background-color: #fff;
+        float: left;
+        margin-top: -80px;
+        margin-left: -130px;
+    
+    }
+    
+    #bado2{
+        width: 0px;
+        height: 65px;
+        background-color: rgb(255, 255, 255);
+        float: left;
+        margin-top: 10%;
+        margin-left: -130px;
+    
+    }
+    .top-section-2{
+        margin-right: -10%;
+        width: 100%;
+    }
+    
+    .second-sec{
+       
+        width: 35%;
+        height: 400px;
+        font-size:65%;
+        padding-right: 5%;
+        padding-left: -100%;
+        margin-top: -55px;
+        margin-left: 108%;
+       
+    }
+    .second-sec b{
+        font-size: 150%;
+       
+    }
+
+ 
+.news-description{
+    width: 50%;
+    height: 180px;
+    /*background-color: rgb(212, 211, 211);*/
+    float: left;
+    margin-left: 40px;
+}
+
+.pic-des-5{
+    margin-top: 1040px;
+    margin-left: 100px;
+    /*margin-left: 150px;*/ 
+}
+.sub-3rd{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 1530px;
+    margin-top: 10px;
+    float: left;
+    /*newly added*/
+    margin-left: 0px;
+}
+.pic-des-6{
+    margin-top: 1280px;
+    margin-left: 100px;
+    /*margin-left: 150px;*/ 
+}
+
+
+
+.program-holder{
+    width: 15%;
+    height: 600px;
+    background-color: #fff;
+    border: 2px double rgb(192, 39, 39);
+    border-radius: 2px;
+    margin-top: 50px;
+    padding-left:50px;
+    
+    text-align: center;
+    float: left;
+    /*
+    
+    margin-right: auto;
+    */
+    }
+
+#pro-hol-1{
+    margin-left: 9%;
+}
+
+
+
+.program-holder .bold{
+   
+    font-size: 90%;
+    
+    }
+    .italic, .des{
+    font-size: 70%;
+    }
+
+    #second-app, #third-app{
+      
+        width: 100%;
+        height: 100px;
+        margin-top: 85%;
+        
+    }
+    #third-app{
+      
+        margin-top: 112%;
+    }
+    .apply-seminar{
+        font-size: 60%;
+        background-color: rgb(192, 39, 39);
+        color: #fff;
+        padding: 15px 20px 15px 20px;
+        border: none;
+        border-radius: 35px;
+        margin-top: 10%;
+        border: 1px solid #fff;
+        }
+
+    #partners{
+        margin-left: -1%;
+        padding-left: -10%;
+        font-size: 90%;
+    }
+    .pars a{
+        
+        font-size: 50%;
+
+    }
+    #pars1{
+        margin-left: -2%;
+    }
+    #pars2{
+        margin-left: -10%;
+    }
+    .ion-school{
+        font-size: 110%;
+        
+    }
+
+    .sub-6th{
+        
+        width: 42%;
+        height: 450px;
+        margin-top: 130px;
+        margin-left: -50px;
+    }
+    #slider-2{
+        width: 100%;
+        height: 450px; 
+        overflow: hidden;
+    }
+
+
+    
+.sub-7th{
+   
+    width: 93.5%;
+    height: 420px;
+    margin-left: 50px;
+}
+
+.e{
+    width: 22%;
+    height: 300px;
+    float: left;
+    font-size: 1800%;
+    padding-top: 0px;
+    margin-top: -60px;
+   
+}
+
+#contact-header b{
+    font-size: 90%;
+    margin-bottom: 46px;
+ }
+
+ #co{
+    color: rgb(0, 0, 0);
+    padding: 0;
+    margin-top: -35px;
+    margin-left: 50px;
+    font-size: 80%;
+}
+
+.contacts{
+    width: 40%;
+    height: 400px;
+ 
+ }
+
+ .contacts ul li{
+     font-size: 55%;
+  
+     line-height: 25px;
+ }
+
+ #contact-header{
+    margin-bottom: -36px;
+ }
+
+ .basic-info{
+    width: 20%;
+    height: 390px;
+    margin-top: 132px;
+    margin-left: 25px;
+    font-size: 50%;
+    line-height: 15px;
+    }
+
+    .available-info{
+        width: 24.5%;
+        height: 350px;
+    }
+
+
+    .available-des{
+        font-size: 40%;
+        text-align: left;
+        padding-left: 15%;
+    }
+
+    #bahir{
+        font-size: 50%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+        
+.available-img{
+    width: 90%;
+    height:180px;
+
+    }
+
+
+    .footer-2{
+        padding-top: 64px;
+        margin-left:auto ;
+        margin-right:auto ;
+        float: left;
+        font-size: 100%;
+        }
+
+    .footer{
+        padding-top: 60px;
+        margin-left: -10%;
+        
+        float: left;
+    }
+
+
+    .footer-3{
+   
+        margin-top: 50px;
+        margin-left:40%;
+        
+    }
+        .footer-last{
+            margin-top: 50px;
+            margin-left: 30%;
+           
+            }
+                 
+/*
+
+
+
+
+
+
+
+.basic-info a{
+color: rgb(212, 34, 34);
+}
+.basic-info p{
+font-size: 90%;
+}
+.basic-info b{
+font-size: 125%;
+}
+.contacts ul li{
+font-size: 70%;
+line-height: 26px;
+}
+.lo{
+font-size: 30px;
+vertical-align: -25%;
+color: rgb(192, 39, 39);
+}
+
+*/
+
+/* 
+   .sign-in, .sign-up{
+       position: absolute;
+   width: 6%;
+   height: 40px;
+   padding: 5px 2px; 
+   font-size: 55%;
+   margin-left: 40%;
+   margin-top: 5px;
+     
+      margin-left: -385px;
+      margin-top: 5px;
+      float: right;
+       
+   
+      margin-left: -355px;
+      margin-top: -18px;
+     
+    }*/
+/*    .sign-in{
+        margin-left: -415px;
+        margin-top: 5px;
+
+        margin-left: -42%;
+
+        margin-top: 5px;
+        float: left;
+        
+        margin-left: -455px;
+        margin-top: 25px;
+        
+    }
+*/
+
+
+
+
+}
+/* Small Tablets to bid tablets: from 768 to 1023px*/
+@media only screen and (max-width:1023px){
+
+}
+
+
+/* Small phones to small Tablets: from 481 to 767px*/
+@media only screen and (max-width:767px){
+
+}
+
+/* small phones: from 0 to 480px*/
+@media only screen and (max-width:480px){
+
+}

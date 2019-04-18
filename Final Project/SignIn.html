@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="SignIn.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sign In</title>
+ 
+</head>
+<body>
+      <div class="navbar">
+        <img src="Logo/logo.jpg" class="img-rounded logo">
+        <div class="texts">
+                Ethiopian<br>
+                Cultural institute
+        </div>
+        <div class="main-nav">
+                        
+                    <div class="navbar-2">
+
+                            <div class="dropdown">
+                            <button class="dropbtn">About 
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="AboutECI.html">ECI</a>
+                                <a href="AboutEthiopia.html">Ethiopia</a>
+                               
+                            </div>
+                            </div> 
+                        </div>
+
+                    <a href="News.html">News</a>
+                        
+                    <div class="navbar-2">
+
+                            <div class="dropdown">
+                            <button class="dropbtn">Admission 
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="Programs.html">programs</a>
+                                <a href="AdmissionRequirements.html">admission requirements</a>
+                                <a href="ApplicationProcess.html">application process</a>
+                            </div>
+                            </div> 
+                        </div>
+                    <a href="Universities.html">Universities & Schools</a>
+                    <a href="Home.html">home</a>
+               
+                </div>
+        
+                <button class="sign-up" onclick="location.href='http://127.0.0.1:5500/SignUp.html';">Sign Up</button>
+                <!-- <button class="sign-in" onclick="location.href='http://127.0.0.1:5500/SignIn.html';">Sign In</button>
+       -->
+        
+           
+      </div>
+
+      
+    <div class="section-2">
+            Students Portal
+    </div>
+ 
+
+
+    <div class="section1">
+            <div class="sub-3rd"><!--ALL THE NEWS PART-->
+                <div id="news-header">
+                        Sign In<div id="n"></div>
+                </div>
+            </div>
+            <h5>You can sign in with Facebook, Gmail or your regular user account</h5>
+            <div class="gogface">
+                   
+                <button class="face">
+                    <div class="ffc">
+                            <div class="fc">
+                                    f
+                                </div>
+                                 <div class="fcd"> 
+                                        SIGN IN WITH FACEBOOK
+                                 </div>
+                    </div>
+                
+                   
+                </button><br>
+                <button class="face" id="google">
+                        <div class="ffc">
+                                <div class="go">
+                                        <ion-icon name="logo-google" class="g"></ion-icon>
+                                    </div>
+                                     <div class="god"> 
+                                        SIGN IN WITH GOOGLE
+                                     </div>
+                        </div>
+                    
+                       
+                    </button><br>  
+                </div>
+                <div class="abc"> 
+                        <div id="a"> </div>
+                        <div id="b"> OR </div>
+                        <div id="c"> </div>
+                </div>
+       
+                
+    <form action="" method="GET" class="simpleForm" onsubmit="return (ValidateForm())">
+                 
+         <div class="section-1-1">
+             
+                <div class="for-group">
+                    <input type="text" name="email" class="form-control" id="emails" placeholder="Your Email" onkeyup="removeMes(this)">
+                    <p class="error" id="errorEmail"></p>
+                    <input type="password" name="pass" class="form-control" id="pass" placeholder="Password" onkeyup="removeMes(this)">
+                    <p class="error" id="errorPass"></p>
+                </div> 
+                
+          
+                <button class="sign">Sign In</button>
+                <div class="dont">
+                    Don've an account? <a href="SignUp.html">Sign Up</a>
+                </div>
+        </div>
+            
+    </form>
+   
+</div>
+
+  
+
+
+
+
+
+    <div class="sub-9th">
+        <div class="footer">
+                <a href="AboutECI.html">contact us</a>
+                <a href="Programs.html">admissions</a>
+                <a href="AdmissionRequirements.html">policies</a>
+                <a href="News.html">community</a>
+                <a href="SignIn.html">sign in</a>
+        </div>
+        <div class="footer-2">
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+       
+        <div class="footer-last">
+            Copyright &copy; 2019 ethiopian cultural institute. all rights reserved.
+        </div>
+    
+    </div>
+
+    <script src="SignIn.js"></script>
+    <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
+    
+</body>
+</html>
+
+
